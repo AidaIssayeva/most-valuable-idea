@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_mvvm">
+
+  <fragment
+      android:id="@+id/navigation_mvvm"
+      android:name="com.cupsofcode.mostvaluableidea.ui.mvvm.MVVMFragment"
+      android:label="@string/title_home"
+      tools:layout="@layout/fragment_home" />
+
+  <fragment
+      android:id="@+id/navigation_mvi"
+      android:name="com.cupsofcode.mostvaluableidea.ui.mvi.MVIFragment"
+      android:label="@string/title_dashboard"
+      tools:layout="@layout/fragment_simple" />
+
+  <fragment
+      android:id="@+id/navigation_mvvm2"
+      android:name="com.cupsofcode.mostvaluableidea.ui.mvvm2.MVVM2Fragment"
+      android:label="@string/title_notifications"
+      tools:layout="@layout/fragment_notifications" />
+  <fragment
+      android:id="@+id/navigation_mvi2"
+      android:name="com.cupsofcode.mostvaluableidea.ui.mvi2.MVI2Fragment"
+      android:label="@string/title_notifications_1"
+      tools:layout="@layout/fragment_complex" />
+</navigation>

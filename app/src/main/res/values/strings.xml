@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">Most Valuable Idea</string>
+  <string name="title_home">MVVM</string>
+  <string name="title_dashboard">MVI</string>
+  <string name="title_notifications">MVVM 2</string>
+  <string name="title_notifications_1">MVI 2</string>
+  <string name="button_continue">Continue</string>
+  <string name="button_submit">PLace Order</string>
+  <string name="text_price">$ %d</string>
+  <string name="text_total_selected">Total Price of Selected %1$s is %2$d</string>
+  <string name="navbar_title_cart">Your cart</string>
+  <string name="navbar_title_checkout">Checkout</string>
+  <string name="button_ok">Ok</string>
+</resources>
