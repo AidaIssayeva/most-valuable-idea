@@ -12,9 +12,3 @@ The slides are available [here](https://docs.google.com/presentation/d/e/2PACX-1
 
 
 
-
-
-
-
-
-
